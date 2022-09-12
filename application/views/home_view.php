@@ -9,9 +9,11 @@
 </head>
 
 <body>
-    <h1>URL: $this->config->site_url() </br></br></h1>
-    <h1>URL: $this->config->base_url() </br></br></h1>
-    <h1>URL: $this->config->system_url() </br></br></h1>
+
+    <h1>Site URL:<?= $this->config->site_url(); ?></br></br></h1>
+    <h1>Base URL: <?php echo $this->config->base_url(); ?></br></br></h1>
+    <h1>System URL: <?= $this->config->system_url(); ?></br></br></h1>
+
 </body>
 
 </html>
